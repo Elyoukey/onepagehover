@@ -1,0 +1,35 @@
+<!-- 
+	First level <menu> tag contains the structure of the website 
+	must contain 1 <label> tag
+	can contain other <menu> tags
+	can contain <link> tags
+-->
+<menu>
+	<!-- 
+		<label> tag defines the text displayed for this menu 
+	-->
+	<label>Products</label>
+
+	<!-- 
+		<link> tag define links to be displayed in this menu level 
+		"ref" attribute define the file where to find the content that will be displayed when clicking/hover the link. 
+		Lookup in the "texts" folder
+		filenmaes can be anything handle by the file system
+		
+	-->
+	<link ref="nanotrace.htm">
+		<!-- label defines the text displayed for this link -->
+		<label>nanoTRACE</label>
+	</link>
+
+	<!-- 
+		sublevel <menu> tag
+		must contain 1 <label> tag
+		can contain other <menu> tags
+		can contain <link> tags
+	-->
+	<menu>
+		<label></label>
+	</menu>
+</menu>
+
